@@ -1,3 +1,7 @@
+# ⚡ Description
+
+I built a local, privacy-first Codebase RAG Assistant using Python and Streamlit. To optimize for speed and cost, I used a lightweight open-source embedding model (all-MiniLM-L6-v2) via SentenceTransformers to convert code files into vector embeddings locally, bypassing third-party embedding APIs. I implemented the cosine similarity search algorithm from scratch using NumPy to retrieve the most semantically relevant code snippets. Finally, I orchestrated the retrieved context alongside user queries into the google-genai SDK, allowing developers to chat with their codebase with customizable generation styles (Concise, Detailed, or Step-by-Step
+
 # ⚡ GenAI Codebase Assistant
 A Streamlit app that uses Google Gemini + SentenceTransformers to analyze codebases.  
 Features:
